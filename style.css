@@ -1,0 +1,66 @@
+html, body {
+	background-color: black;
+}
+
+.header{
+	background:url(http://www.planwallpaper.com/static/images/1713546.jpg)no-repeat center center;
+	background-size: cover;
+	background-color: transparent;
+	height: 460px;
+}
+div h1{
+	color: orange;
+	font-family: times;
+}
+.nav ul{
+	background-color: #608b8b;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+.nav li{
+	font-family: 'Loster', sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	height: 50px;
+	border-bottom: 2px solid #888;
+	display: inline-block;
+	margin-right: 50px;
+	
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .2s background-color;
+}
+.nav a:active{
+	background-color: #444;
+	color: #444;
+	cursor: default;
+}
+.nav a:hover{
+	background-color: #005f5f;
+}
+
+.main{
+	background: url(https://newevolutiondesigns.com/images/freebies/abstract-background-1.jpg)no-repeat center center;
+	background-color: transparent;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+p{
+	color: yellow;
+	font-style: normal;
+	font-size: 25px;
+}
+h3{
+	color: white;
+}
+.footer p{
+	font: 5px;
+	text-align: center;
+}
